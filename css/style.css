@@ -1,0 +1,115 @@
+ .titulo {
+   text-align: center;
+   color: black;
+   background-color: yellow;
+   padding: 10px;
+   margin-top: 100px;
+   box-shadow: 10px 5px 5px black;
+ }
+
+ .card {
+   height: 100%;
+ }
+
+ .card .card-image {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .btna {
+   border: transparent;
+ }
+
+ .nav-item {
+   color: white;
+ }
+
+ .nav-link {
+   color: white;
+ }
+
+ .sidenav-trigger {
+   color: white;
+ }
+
+ .parallax-container {
+   min-height: 300px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255, 255, 255, .9);
+ }
+
+ .parallax-container .section {
+   width: 100%;
+ }
+
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+
+ footer.page-footer {
+   margin: 0;
+ }
+
+ @font-face {
+   font-family: 'Cairo Play';
+   src: url('../font/CairoPlay.ttf') format('truetype');
+   font-style: normal;
+   font-weight: normal;
+ }
+
+ :root {
+   font-family: "Cairo Play";
+ }
+
+.card a{
+  color: black;
+}
+
+.card .card-content{
+  padding: 15px;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+ .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   opacity: 0;
+   transition: opacity 0.2s ease;
+   color: #fff;
+ }
+
+ .overlay p {
+   padding: 10px;
+   text-align: center;
+ }
+
+ .overlay .caption {
+   font-size: 20px;
+ }

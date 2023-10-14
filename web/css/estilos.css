@@ -1,0 +1,14 @@
+.titulo{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-pills .nav-link.active{
+    background-color: yellow;
+    color: black;
+}
+

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cafeteria</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav style="background-color: crimson;">
+                <div>
+                    <a class="brand-logo" href="#">
+                        <img src="img/LogoSF.png" alt="Logo" width="60" height="50">
+                        JaguarEats
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="nav-item">
+                            <a class="waves-effect waves-orange" href=" #comida">Comidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="waves-effect waves-orange" href=" #bebidas">Bebidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="waves-effect waves-orange" href="#galletas">Galletas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="waves-effect waves-orange" href="#refrescos">Refrescos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="waves-effect waves-orange" href="#frituras">Frituras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="waves-effect waves-orange" href="#postres">Postres</a>
+                        </li>
+                        <li class="nav-item">
+                            <form>
+                                <div class="input-field">
+                                    <input id="search" type="search" required>
+                                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <button href="#" data-target="slide-out"
+                                class="sidenav-trigger waves-effect waves-light transparent btna"><i
+                                    class="material-icons">shopping_cart</i>
+                            </button>
+                        </li>
+                    </ul>
+
+                    <ul id="nav-mobile" class="sidenav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#comida">Comidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#bebida">Bebidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Galletas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Refrescos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Frituras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Postres</a>
+                        </li>
+                        <li class="nav-item">
+                            <form>
+                                <div class="input-field">
+                                    <input id="search" type="search" required>
+                                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                    <i class="material-icons">close</i>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+
+    <section>
+        <div class="carousel carousel-slider center ">
+            <a class="carousel-item" href="#one!"><img src="img/img1.jpg" class="rounded mx-auto d-block w-100 "
+                    alt="imagen banner 1"></a>
+            <a class="carousel-item" href="#two!"> <img src="img/img2.jpg" class="rounded mx-auto d-block w-100"
+                    alt="imagen banner 2"></a>
+            <a class="carousel-item" href="#three!"><img src="img/img3.jpg" class="rounded mx-auto d-block w-100"
+                    alt="imagen banner 3"></a>
+        </div>
+    </section>
+
+
+    <hr>
+    <!-- Comidas -->
+    <div class="container-fluid">
+        <div id="index-banner" class="parallax-container">
+            <h1 class="titulo text-flex" id="comida">Comidas</h1>
+            <div class="parallax"><img src="img/Collage.jpg" alt="Unsplashed background img 1"></div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row" style="display: flex;">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Comida/hamburguesa.png" class="imga" alt="Hamburguesa">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Hamburguesa doble</span>
+                                <p>$35</p>
+                                <p class="card-text">Disponible: 15</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Comida/hamburguesa2.png" class="imga" alt="Hamburguesa">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Hamburguesa com papas</span>
+                                <p>$55</p>
+                                <p class="card-text">Disponible: 41</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Comida/pizza.png" class="imga" style="width: 12rem; height: 10rem;"
+                                    alt="pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pizza Vegetales</span>
+                                <p>$85</p>
+                                <p class="card-text">Disponible: 54</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Comida/pizza2.png" class="imga" style="width: 10rem; height: 10rem;"
+                                    alt="Pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pizza Peperoni</span>
+                                <p>$95</p>
+                                <p class="card-text">Disponible: 14</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <!-- Bebidas -->
+    <div class="container-fluid">
+        <div id="index-banner" class="parallax-container">
+            <h1 class="titulo shadow rounded" id="bebidas">Bebidas</h1>
+            <div class="parallax"><img src="img/CollageBebidas.jpg" alt="Unsplashed background img 1"></div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row" style="display: flex;">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Bebidas/horchata.png" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Hamburguesa">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Horchata</span>
+                                <p>$35</p>
+                                <p class="card-text">Disponible: 15</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Bebidas/jamaica.png" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Hamburguesa2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Jamaica</span>
+                                <p>$55</p>
+                                <p class="card-text">Disponible: 41</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+
+                                <img src="img/Bebidas/limon.png" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Limon</span>
+                                <p>$85</p>
+                                <p class="card-text">Disponible: 54</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Bebidas/piña.png" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Piña</span>
+                                <p>$95</p>
+                                <p class="card-text">Disponible: 14</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <!-- Galletas -->
+    <div class="container-fluid">
+        <div id="index-banner" class="parallax-container">
+            <h1 class="titulo shadow rounded" id="galletas">Galletas</h1>
+            <div class="parallax"><img src="img/CollageGalletas.jpg" alt="Unsplashed background img 1"></div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row" style="display: flex;">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Galletas/deliciosas.jpeg" class="imga"
+                                    style="width: 12rem; height: 12rem;" alt="Hamburguesa">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Deliciosas</span>
+                                <p>$35</p>
+                                <p class="card-text">Disponible: 15</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Galletas/maria.jpeg" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Hamburguesa2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Maria</span>
+                                <p>$55</p>
+                                <p class="card-text">Disponible: 41</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Galletas/Oreo.jpeg" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Oreo</span>
+                                <p>$85</p>
+                                <p class="card-text">Disponible: 54</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Galletas/principe.jpeg" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Principe</span>
+                                <p>$95</p>
+                                <p class="card-text">Disponible: 14</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <!-- Refrescos -->
+    <div class="container-fluid">
+        <div id="index-banner" class="parallax-container">
+            <h1 class="titulo shadow rounded" id="refrescos">Refrescos</h1>
+            <div class="parallax"><img src="img/CollageRefresco.jpg" alt="Unsplashed background img 1"></div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row" style="display: flex;">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Refresco/coca.png" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Hamburguesa">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">CocaCola</span>
+                                <p>$35</p>
+                                <p class="card-text">Disponible: 15</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Refresco/fresca.png" class="imga" style="width: 6rem; height: 12rem; "
+                                    alt="Hamburguesa2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Fresca</span>
+                                <p>$55</p>
+                                <p class="card-text">Disponible: 41</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Refresco/mirinda.png" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Mirinda</span>
+                                <p>$85</p>
+                                <p class="card-text">Disponible: 54</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Refresco/penafiel.png" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Peñafiel</span>
+                                <p>$95</p>
+                                <p class="card-text">Disponible: 14</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <!-- Frituras -->
+    <div class="container-fluid">
+        <div id="index-banner" class="parallax-container">
+            <h1 class="titulo shadow rounded" id="frituras">Frituras</h1>
+            <div class="parallax"><img src="img/CollageFrituras.jpg" alt="Unsplashed background img 1"></div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row" style="display: flex;">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Frituras/cheetos.jpeg" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Hamburguesa">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Cheetos</span>
+                                <p>$35</p>
+                                <p class="card-text">Disponible: 15</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Frituras/fritos.jpeg" class="imga" style="width: 8rem; height: 12rem;"
+                                    alt="Hamburguesa2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Fritos</span>
+                                <p>$55</p>
+                                <p class="card-text">Disponible: 41</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Frituras/rufles.jpeg" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Ruffles</span>
+                                <p>$85</p>
+                                <p class="card-text">Disponible: 54</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Frituras/sabritas.jpeg" class="imga" style="width: 12rem; height: 12rem;"
+                                    alt="Pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Sabritas</span>
+                                <p>$95</p>
+                                <p class="card-text">Disponible: 14</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Postres -->
+    <div class="container-fluid">
+        <div id="index-banner" class="parallax-container">
+            <h1 class="titulo shadow rounded" id="postres">Postres</h1>
+            <div class="parallax"><img src="img/CollagePostres.jpg" alt="Unsplashed background img 1"></div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row" style="display: flex;">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Postres/gelatina.jpg" class="imga" style="width: 100%; height: 10rem;"
+                                    alt="Hamburguesa2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Gelatina</span>
+                                <p>$35</p>
+                                <p class="card-text">Disponible: 15</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Postres/pastel.jpg" class="imga" style="width: 14rem; height: 10rem;"
+                                    alt="Hamburguesa2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pastel</span>
+                                <p>$55</p>
+                                <p class="card-text">Disponible: 41</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Postres/PayLimon.jpg" class="imga" style="width: 100%; height: 10rem;"
+                                    alt="pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pay de Limon</span>
+                                <p>$85</p>
+                                <p class="card-text">Disponible: 54</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <a class="waves-effect waves-light tooltipped modal-trigger" data-position="top"
+                            data-tooltip="Ver más" href="#modal1">
+                            <div class="card-image">
+                                <img src="img/Postres/payqueso.jpg" class="imga" style="width: 100%; height: 10rem;"
+                                    alt="Pizza2">
+                                <div class="overlay">
+                                    <p class="caption">Click para ver detalles</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pay de Queso</span>
+                                <p>$95</p>
+                                <p class="card-text">Disponible: 14</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-header white-text" style="background-color: crimson; padding: 1px;">
+            <h5>Ver Producto</h5>
+        </div>
+        <div class="modal-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col s4">
+                        <img src="img/Comida/pizza2.png" alt="Producto" class="img-thumbnail" style="width: 100%;">
+                        <div class="form-group p-2">
+                            <label for="cantidad">Cantidad:</label>
+                            <input type="number" class="form-control" id="cantidad" value="1">
+                        </div>
+                    </div>
+
+                    <div class="col s8">
+                        <h2>Pizza de Pepperoni</h2>
+                        <p>Descripción del producto:</p>
+                        <p>● De un sabor grandioso, con los mismos ingredientes que hacen agua la boca que
+                            nuestras pizzas
+                            masa estilo Hand-Tossed, ¡es perfecta para la comida o como un snack!<br>
+                            ● Hecha con nuestra salsa original y repleta con queso mozzarella y delicioso
+                            pepperoni <br>
+                            ● Esta pizza de pepperoni está siempre deliciosa... porque NO ES DELIVERY. </p>
+                        <p>Precio: $235.00</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer text-light" style="background-color: yellow;">
+            <a onclick="M.toast({ html: 'Producto Agregado', classes: 'rounded' })" class="btn">Agregar!</a>
+        </div>
+    </div>
+
+    <!-- SideNav -->
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <h4 class="text-center">Carrito</h4>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <div class="row center">
+                <div class="card" style="max-width: 250px;">
+                    <div class="row">
+                        <div class="card-image">
+                            <img src="img/Comida/hamburguesa.png" class="circle" alt="Hamburguesa">
+                            <a onclick="M.toast({ html: 'Producto Eliminado', classes: 'rounded' })"
+                                class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                    class="material-icons">delete</i></a>
+                        </div>
+                        <div class="card-content">
+                            <h6 class="card-title">Hamburguesa</h6>
+                            <p class="card-text">$35</p>
+                            <div class="input-field">
+                                <input value="1" id="cantidad" type="number" class="validate">
+                                <label for="cantidad">Cantidad</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 250px;">
+                    <div class="row">
+                        <div class="card-image">
+                            <img src="img/Comida/hamburguesa.png" class="card-image" alt="Hamburguesa">
+                            <a onclick="M.toast({ html: 'Producto Eliminado', classes: 'rounded' })"
+                                class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                    class="material-icons">delete</i></a>
+                        </div>
+                        <div class="card-content">
+                            <h6 class="card-title">Hamburguesa</h6>
+                            <p class="card-text">$35</p>
+                            <div class="input-field">
+                                <input value="1" id="cantidad" type="number" class="validate">
+                                <label for="cantidad">Cantidad</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 250px;">
+                    <div class="row">
+                        <div class="card-image">
+                            <img src="img/Comida/hamburguesa.png" class="card-image" alt="Hamburguesa">
+                            <a onclick="M.toast({ html: 'Producto Eliminado', classes: 'rounded' })"
+                                class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                    class="material-icons">delete</i></a>
+                        </div>
+                        <div class="card-content">
+                            <h6 class="card-title">Hamburguesa</h6>
+                            <p class="card-text">$35</p>
+                            <div class="input-field">
+                                <input value="1" id="cantidad" type="number" class="validate">
+                                <label for="cantidad">Cantidad</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <div class="container-fluid">
+                <div class="row center">
+                    <div class="col s6">
+                        <p>Total a pagar:</p>
+                    </div>
+                    <div class="col s2">
+                        <p>$345</p>
+                    </div>
+                    <div class="col s4">
+                        <a class="waves-effect waves-light btn"><i class="material-icons">attach_money</i></a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+
+    <footer class="page-footer" style="background-color: crimson;">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">JaguarEats</h5>
+                    <p class="grey-text text-lighten-4">Cafeteria con 58 años de tradicion dentro del ITVH, contamos con
+                        gran variedad en la
+                        venta de alimentos, refrescos, postres, etc.</p>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Settings</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2023 Copyright: JaguarEats
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $('.modal').modal();
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+
+        var instance = M.Carousel.init({
+            fullWidth: true,
+            indicators: true
+        });
+
+        // Or with jQuery
+
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.tooltipped');
+            var instances = M.Tooltip.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $('.tooltipped').tooltip();
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });
+
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+
+    </script>
+
+
+</body>
+
+</html>
